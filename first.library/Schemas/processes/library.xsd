@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.tibco.org/library" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.tibco.org/library">
+
+    <complexType name="CalculateHexadecimalInType">
+    	<sequence>
+    		<element name="string" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="CalculateHexadecimalIn" type="tns:CalculateHexadecimalInType"></element>
+
+    <complexType name="CalculateHexadecimalOutType">
+    	<sequence>
+    		<element name="hexadecimal" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="CalculateHexadecimalOut" type="tns:CalculateHexadecimalOutType"></element>
+</schema>
